@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  /*    HEADER SECTION     */
+
+.container {
+    max-width: 1080px;
+    margin: auto;
+    padding: 0 16px;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header .logo{
+    display: inline-block;
+}
+
+header .logo .red-dot {
+    background-color: orange;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 6px;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,0.15);
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+header nav {
+    display: inline-block;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li.menu-icon {
+    display: none;
+}
+
+header nav ul li.menu-icon {
+    vertical-align: middle;
+    width: 20px;
+    height: auto;
+}
+
+header nav ul li a {
+    color: #3e3e3e;
+    font-size: 15px;
+    letter-spacing: 0.37px;
+    margin-right: 24px;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #3e50e5;
+}
+
+header nav ul li:last-of-type {
+    margin-right: 0;
+}
+
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  table th,
+  table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  table td {
+    font-size: 14px;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  

@@ -1,0 +1,220 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../image/img1.webp");
+    background-size: cover;
+}
+
+/*===========header========*/
+
+/*    HEADER SECTION     */
+
+.container {
+    max-width: 1080px;
+    margin: auto;
+    padding: 0 16px;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header .logo{
+    display: inline-block;
+}
+
+header .logo .red-dot {
+    background-color: orange;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 6px;
+}
+
+header {
+    background-color: #fff;
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,0.15);
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+header nav {
+    display: inline-block;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li.menu-icon {
+    display: none;
+}
+
+header nav ul li.menu-icon {
+    vertical-align: middle;
+    width: 20px;
+    height: auto;
+}
+
+header nav ul li a {
+    color: #3e3e3e;
+    font-size: 15px;
+    letter-spacing: 0.37px;
+    margin-right: 24px;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    color: #3e50e5;
+}
+
+header nav ul li:last-of-type {
+    margin-right: 0;
+}
+
+.container1 {
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0.85;
+}
+
+.container1 .form {
+    padding: 50px;
+    margin: 0px 34px 5px 0px;
+}
+
+.container1 .form .Title {
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.form .Title::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background-color: rgb(240, 137, 20);;
+    border-radius: 25px;
+}
+
+.form .input_field {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.input_field input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0 35px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+    transform: translateX(-12px);
+}
+
+.input_field input:is(:focus, :valid) {
+    border-bottom-color: rgb(240, 137, 20);;
+}
+
+.input_field i {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 23px;
+}
+
+.input_field input:is(:focus, :valid) ~ i {
+    color: rgb(240, 137, 20);;
+}
+
+.input_field i.icon {
+    left: 0;
+}
+
+.input_field i.showhide {
+    right: 0;
+}
+
+.form .checkbox_text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.checkbox_text .checkbox_content {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox_content input {
+    margin: 0 8px -2px 4px;
+    
+}
+
+.form .text {
+    color: #333;
+    font-size: 14px;
+}
+
+.form a{
+    text-decoration: none;
+}
+
+.form a:hover {
+    text-decoration: underline;
+}
+
+.form .button {
+    margin-top: 35px;
+}
+
+.form .button input {
+    border: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: rgb(240, 137, 20);
+    cursor: pointer;
+}
+
+.button input:hover {
+    background-color: orange;
+}
+
+.form .login-signup {
+    margin-top: 30px;
+    text-align: center;
+}
