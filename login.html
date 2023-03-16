@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <!--Icon Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+
+
+    <link rel="stylesheet" href="css/login.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+
+</head>
+<body>
+
+    <!--     header section     --> 
+    <header>
+        <div class="container">
+            <section class="logo">
+                <strong><a href="index.html">Lakshya</a></strong>
+                <span class="red-dot"></span>
+                <span>Present</span> 
+            </section>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+    </header>
+    
+    <div class="container1">
+        <div class="form">
+            <div class="form_login">
+                <span class="Title">Login</span>
+    
+                <form action="#">
+                    <div class="input_field">
+                        <input type="text" id="usernames" placeholder="Enter Your Name" required>
+                        <i class="fas fa-user"></i>
+                    </div>  
+                    <div class="input_field">
+                        <input type="password" id="passwords" placeholder="Enter Your Password" required>
+                        <i class="fas fa-lock icon"></i>
+                    </div>
+                    <div class="checkbox_text">
+                        <div class="checkbox_content">
+                            <input type="checkbox" id="lofcheck">
+                            <label for="logcheck" class="text">Remember me</label>
+                        </div>
+                        <a href="#" class="text">Forgot Password</a>
+                    </div>
+                    <div class="input_field button">
+                        <input type="submit" id="login" value="Login Now">
+                    </div>
+                </form>
+                <div class="login-signup">
+                    <span class="text">Not a member?
+                        <a href="signup.html" class="text signup-text">Signup Now</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="javascript/login.js"></script>
+</body>
+</html>
